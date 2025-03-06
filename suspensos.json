@@ -1,0 +1,11 @@
+{
+"alumnos":[
+  {"nombre":"juana", "notasuspensa1":"1"},
+  {"nombre":"pedro", "notasuspensa1":"4"},
+  {"nombre":"luis", "notasuspensa1":"1", "notasuspensa2":"1"},
+  {"nombre":"maria", "notasuspensa1":"4", "notasuspensa2":"4"},
+  {"nombre":"ongombo", "notasuspensa1":"3", "notasuspensa2":"1"}, 
+  {"nombre":"maria lucia", "notasuspensa1":"1", "notasuspensa2":"2" },
+  {"nombre":"fernando", "notasuspensa1":"4"}
+  ]
+}
