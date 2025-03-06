@@ -1,7 +1,11 @@
 {
-"media":[
-  {"firstName":"John", "lastName":"Doe"},
-  {"firstName":"Anna", "lastName":"Smith"},
-  {"firstName":"Peter", "lastName":"Jones"}
-]
+"medias":[
+  {"nombre":"juana", "media":"3.66"},
+  {"nombre":"pedro", "media":"7"},
+  {"nombre":"luis", "media":"2.66"},
+  {"nombre":"maria", "media":"4.66"},
+  {"nombre":"ongombo", "media":"3.33"}, 
+  {"nombre":"maria lucia", "media":"2.33"},
+  {"nombre":"fernando", "media":"5.33"}
+  ]
 }
