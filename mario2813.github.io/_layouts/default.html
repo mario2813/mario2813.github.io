@@ -3,25 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title | default: "Mi Web" }}</title>
-    {% if page.css == "azul" %}
-      <link rel="stylesheet" href="/assets/css/azul.css">
-    {% elsif page.css == "amarillo" %}
-      <link rel="stylesheet" href="/assets/css/amarillo.css">
+    {% if page.css == "style" %}
+      <link rel="stylesheet" href="/assets/css/style.css">
     {% endif %}
 </head>
 <body>
     <div class="topnav">
-      <a href="/examen/database.html">VER TABLA ALUMNOS</a>
-      <a href="/examen/vernotas.html">ORDEN ALUMNOS</a>
-      <a href="/examen/añadiralumnos.html">AÑADIR ALUMNOS</a>
-      <a href="/examen/aliminaralumnos.html">ELIMINAR ALUMNOS</a>
-      <a href="/examen/actualizaralumnos.html">ACTUALIZAR NOTAS</a>
+      <a href="/examen/1.html">VER TABLA ALUMNOS</a>
+      <a href="/examen/2.html">ORDEN ALUMNOS</a>
+      <a href="/examen/3.html">AÑADIR ALUMNOS</a>
+      <a href="/examen/4.html">ELIMINAR ALUMNOS</a>
     </div>
     <div class="main">
         {{ content }}
     </div>
     <div class="footer">
-        <p>Jeremy Martínez - IMPLANTACIÓN DE APLICACIONES WEB</p>
+        <p>Mario Miguel - IMPLANTACIÓN DE APLICACIONES WEB</p>
     </div>
 </body>
 </html>
