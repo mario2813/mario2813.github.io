@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: "Mi Web" }}</title>
+    {% if page.css == "azul" %}
+      <link rel="stylesheet" href="/assets/css/azul.css">
+    {% elsif page.css == "amarillo" %}
+      <link rel="stylesheet" href="/assets/css/amarillo.css">
+    {% endif %}
+</head>
+<body>
+    <div class="topnav">
+      <a href="/examen/database.html">VER TABLA ALUMNOS</a>
+      <a href="/examen/vernotas.html">ORDEN ALUMNOS</a>
+      <a href="/examen/añadiralumnos.html">AÑADIR ALUMNOS</a>
+      <a href="/examen/aliminaralumnos.html">ELIMINAR ALUMNOS</a>
+      <a href="/examen/actualizaralumnos.html">ACTUALIZAR NOTAS</a>
+    </div>
+    <div class="main">
+        {{ content }}
+    </div>
+    <div class="footer">
+        <p>Jeremy Martínez - IMPLANTACIÓN DE APLICACIONES WEB</p>
+    </div>
+</body>
+</html>
